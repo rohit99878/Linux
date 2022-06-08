@@ -1,0 +1,918 @@
+
+
+Question 1
+
+1.1
+
+root@DESKTOP-C82LQHA:/home/cdac_kh# pwd
+/home/cdac_kh
+
+
+
+root@DESKTOP-C82LQHA:/home/cdac_kh# ls -l
+total 0
+-rw-r--r-- 1 cdac_kh cdac_kh  50 Mar 10 15:00 file1.txt
+drwxrw---x 1 root    root    512 Mar  9 15:06 fol2
+-rwx------ 1 root    root      0 Mar 10 11:57 new.txt
+-rwxrwxrwx 1 root    root      0 Mar 10 15:01 new1.txt
+--------w- 1 root    root      0 Mar 10 16:20 new2.txt
+--------w- 1 root    root      0 Mar 10 15:04 new3.txt
+
+root@DESKTOP-C82LQHA:/bin# ls -a
+ .                                    iscsiadm                           setleds
+ ..                                   join                               setlogcons
+ NF                                   journalctl                         setmetamode
+ VGAuthService                        json_pp                            setpci
+ X11                                  jsondiff                           setpriv
+'['                                   jsonpatch                          setsid
+ aa-enabled                           jsonpatch-jsondiff                 setterm
+ aa-exec                              jsonpointer                        setupcon
+ add-apt-repository                   jsonschema                         sftp
+ addpart                              kbd_mode                           sg
+ apport-bug                           kbdinfo                            sg_bg_ctl
+ apport-cli                           kbxutil                            sg_compare_and_write
+ apport-collect                       keep-one-running                   sg_copy_results
+ apport-unpack                        kernel-install                     sg_dd
+ appres                               keyring                            sg_decode_sense
+ apropos                              kill                               sg_emc_trespass
+ apt                                  killall                            sg_format
+ apt-add-repository                   kmod                               sg_get_config
+ apt-cache                            kmodsign                           sg_get_lba_status
+ apt-cdrom                            landscape-sysinfo                  sg_ident
+ apt-config                           last                               sg_inq
+ apt-extracttemplates                 lastb                              sg_logs
+ apt-ftparchive                       lastlog                            sg_luns
+ apt-get                              lcf                                sg_map
+ apt-key                              ldd                                sg_map26
+ apt-mark                             less                               sg_modes
+ apt-sortpkgs                         lessecho                           sg_opcodes
+ arch                                 lessfile                           sg_persist
+ at                                   lesskey                            sg_prevent
+ atq                                  lesspipe                           sg_raw
+ atrm                                 lexgrog                            sg_rbuf
+ automat-visualize3                   libnetcfg                          sg_rdac
+ awk                                  link                               sg_read
+ b2sum                                linux-check-removal                sg_read_attr
+ base32                               linux-update-symlinks              sg_read_block_limits
+ base64                               linux-version                      sg_read_buffer
+ basename                             linux32                            sg_read_long
+ bash                                 linux64                            sg_readcap
+ bashbug                              listres                            sg_reassign
+ batch                                ln                                 sg_referrals
+ bc                                   lnstat                             sg_rep_zones
+ boltctl                              loadkeys                           sg_requests
+ bootctl                              loadunimap                         sg_reset
+ bsd-from                             locale                             sg_reset_wp
+ bsd-write                            locale-check                       sg_rmsn
+ btrfs                                localectl                          sg_rtpg
+ btrfs-convert                        localedef                          sg_safte
+ btrfs-find-root                      locate                             sg_sanitize
+ btrfs-image                          logger                             sg_sat_identify
+ btrfs-map-logical                    login                              sg_sat_phy_event
+ btrfs-select-super                   loginctl                           sg_sat_read_gplog
+ btrfsck                              logname                            sg_sat_set_features
+ btrfstune                            look                               sg_scan
+ bunzip2                              lorder                             sg_seek
+ busctl                               lowntfs-3g                         sg_senddiag
+ busybox                              ls                                 sg_ses
+ byobu                                lsattr                             sg_ses_microcode
+ byobu-config                         lsb_release                        sg_start
+ byobu-ctrl-a                         lsblk                              sg_stpg
+ byobu-disable                        lscpu                              sg_stream_ctl
+ byobu-disable-prompt                 lshw                               sg_sync
+ byobu-enable                         lsinitramfs                        sg_test_rwbuf
+ byobu-enable-prompt                  lsipc                              sg_timestamp
+ byobu-export                         lslocks                            sg_turs
+ byobu-janitor                        lslogins                           sg_unmap
+ byobu-keybindings                    lsmem                              sg_verify
+ byobu-launch                         lsmod                              sg_vpd
+ byobu-launcher                       lsns                               sg_wr_mode
+ byobu-launcher-install               lsof                               sg_write_buffer
+ byobu-launcher-uninstall             lspci                              sg_write_long
+ byobu-layout                         lspgpot                            sg_write_same
+ byobu-prompt                         lsusb                              sg_write_verify
+ byobu-quiet                          ltrace                             sg_write_x
+ byobu-reconnect-sockets              luit                               sg_xcopy
+ byobu-screen                         lz4                                sg_zone
+ byobu-select-backend                 lz4c                               sginfo
+ byobu-select-profile                 lz4cat                             sgm_dd
+ byobu-select-session                 lzcat                              sgp_dd
+ byobu-shell                          lzcmp                              sh
+ byobu-silent                         lzdiff                             sha1sum
+ byobu-status                         lzegrep                            sha224sum
+ byobu-status-detail                  lzfgrep                            sha256sum
+ byobu-tmux                           lzgrep                             sha384sum
+ byobu-ugraph                         lzless                             sha512sum
+ byobu-ulevel                         lzma                               shasum
+ bzcat                                lzmainfo                           showconsolefont
+ bzcmp                                lzmore                             showkey
+ bzdiff                               mailmail3                          shred
+ bzegrep                              man                                shuf
+ bzexe                                man-recode                         skill
+ bzfgrep                              mandb                              slabtop
+ bzgrep                               manifest                           sleep
+ bzip2                                manpath                            slogin
+ bzip2recover                         mapscrn                            snap
+ bzless                               mawk                               snapctl
+ bzmore                               mcookie                            snapfuse
+ c_rehash                             md5sum                             snice
+ cal                                  md5sum.textutils                   soelim
+ calendar                             mdig                               sort
+ captoinfo                            mesa-overlay-control.py            sos
+ cat                                  mesg                               sos-collector
+ catchsegv                            migrate-pubring-from-classic-gpg   sosreport
+ catman                               miniterm                           splain
+ cautious-launcher                    mk_modmap                          split
+ cftp3                                mkdir                              splitfont
+ chage                                mkfifo                             ss
+ chardet3                             mknod                              ssh
+ chardetect3                          mksquashfs                         ssh-add
+ chattr                               mktemp                             ssh-agent
+ chcon                                mlocate                            ssh-argv0
+ check-language-support               more                               ssh-copy-id
+ chfn                                 mount                              ssh-import-id
+ chgrp                                mountpoint                         ssh-import-id-gh
+ chmod                                mt                                 ssh-import-id-lp
+ choom                                mt-gnu                             ssh-keygen
+ chown                                mtr                                ssh-keyscan
+ chrt                                 mtr-packet                         stat
+ chsh                                 mv                                 static-sh
+ chvt                                 namei                              stdbuf
+ ckbcomp                              nano                               strace
+ ckeygen3                             nawk                               strace-log-merge
+ cksum                                nc                                 stty
+ clear                                nc.openbsd                         su
+ clear_console                        ncal                               sudo
+ cloud-id                             neqn                               sudoedit
+ cloud-init                           netcat                             sudoreplay
+ cloud-init-per                       netkit-ftp                         sum
+ cmp                                  networkctl                         symcryptrun
+ codepage                             networkd-dispatcher                sync
+ col                                  newgrp                             systemctl
+ col1                                 ngettext                           systemd
+ col2                                 nice                               systemd-analyze
+ col3                                 nisdomainname                      systemd-ask-password
+ col4                                 nl                                 systemd-cat
+ col5                                 nohup                              systemd-cgls
+ col6                                 nproc                              systemd-cgtop
+ col7                                 nroff                              systemd-delta
+ col8                                 nsenter                            systemd-detect-virt
+ col9                                 nslookup                           systemd-escape
+ colcrt                               nstat                              systemd-hwdb
+ colrm                                nsupdate                           systemd-id128
+ column                               ntfs-3g                            systemd-inhibit
+ comm                                 ntfs-3g.probe                      systemd-machine-id-setup
+ compose                              ntfscat                            systemd-mount
+ conch3                               ntfscluster                        systemd-notify
+ corelist                             ntfscmp                            systemd-path
+ cp                                   ntfsdecrypt                        systemd-resolve
+ cpan                                 ntfsfallocate                      systemd-run
+ cpan5.30-x86_64-linux-gnu            ntfsfix                            systemd-socket-activate
+ cpio                                 ntfsinfo                           systemd-stdio-bridge
+ crontab                              ntfsls                             systemd-sysusers
+ csplit                               ntfsmove                           systemd-tmpfiles
+ ctail                                ntfsrecover                        systemd-tty-ask-password-agent
+ ctstat                               ntfssecaudit                       systemd-umount
+ curl                                 ntfstruncate                       tabs
+ cut                                  ntfsusermap                        tac
+ cvtsudoers                           ntfswipe                           tail
+ dash                                 numfmt                             tar
+ date                                 od                                 taskset
+ dbus-cleanup-sockets                 oem-getlogs                        tbl
+ dbus-daemon                          on_ac_power                        tee
+ dbus-launch                          openssl                            telnet
+ dbus-monitor                         openvt                             telnet.netkit
+ dbus-run-session                     pa-info                            tempfile
+ dbus-send                            pacat                              test
+ dbus-update-activation-environment   pacmd                              tic
+ dbus-uuidgen                         pactl                              time
+ dbxtool                              padsp                              timedatectl
+ dd                                   pager                              timeout
+ deallocvt                            pamon                              tkconch3
+ deb-systemd-helper                   paplay                             tload
+ deb-systemd-invoke                   parec                              tmux
+ debconf                              parecord                           toe
+ debconf-apt-progress                 partx                              top
+ debconf-communicate                  passwd                             touch
+ debconf-copydb                       paste                              tput
+ debconf-escape                       pastebinit                         tr
+ debconf-set-selections               pasuspender                        tracepath
+ debconf-show                         patch                              traceroute6
+ debian-distro-info                   pathchk                            traceroute6.iputils
+ delpart                              pax11publish                       tree
+ delv                                 pbget                              trial3
+ df                                   pbput                              troff
+ dfu-tool                             pbputs                             true
+ dh_bash-completion                   pdb3                               truncate
+ diff                                 pdb3.8                             tset
+ diff3                                peekfd                             tsort
+ dig                                  perl                               tty
+ dir                                  perl5.30-x86_64-linux-gnu          twist3
+ dircolors                            perl5.30.0                         twistd3
+ dirmngr                              perlbug                            tzselect
+ dirmngr-client                       perldoc                            ua
+ dirname                              perlivp                            ubuntu-advantage
+ distro-info                          perlthanks                         ubuntu-bug
+ dmesg                                pftp                               ubuntu-core-launcher
+ dnsdomainname                        pgrep                              ubuntu-distro-info
+ do-release-upgrade                   pic                                ubuntu-security-status
+ domainname                           pico                               ucf
+ dpkg                                 piconv                             ucfq
+ dpkg-deb                             pidof                              ucfr
+ dpkg-divert                          pinentry                           udevadm
+ dpkg-maintscript-helper              pinentry-curses                    udisksctl
+ dpkg-query                           ping                               ul
+ dpkg-split                           ping4                              ulockmgr_server
+ dpkg-statoverride                    ping6                              umount
+ dpkg-trigger                         pinky                              uname
+ du                                   pkaction                           unattended-upgrade
+ dumpkeys                             pkcheck                            unattended-upgrades
+ eatmydata                            pkcon                              uncompress
+ ec2metadata                          pkexec                             unexpand
+ echo                                 pkill                              unicode_start
+ ed                                   pkmon                              unicode_stop
+ edit                                 pkttyagent                         uniq
+ editor                               pl2pm                              unlink
+ editres                              pldd                               unlz4
+ egrep                                plymouth                           unlzma
+ eject                                pmap                               unmkinitramfs
+ enc2xs                               pod2html                           unshare
+ encguess                             pod2man                            unsquashfs
+ env                                  pod2text                           unxz
+ envsubst                             pod2usage                          update-alternatives
+ eqn                                  podchecker                         update-mime-database
+ ex                                   podselect                          updatedb
+ expand                               pollinate                          updatedb.mlocate
+ expiry                               pr                                 uptime
+ expr                                 preconv                            usb-devices
+ factor                               print                              usbhid-dump
+ faillog                              printenv                           usbreset
+ fallocate                            printerbanner                      users
+ false                                printf                             utmpdump
+ fgconsole                            prlimit                            uuidgen
+ fgrep                                prove                              uuidparse
+ file                                 prtstat                            vcs-run
+ finalrd                              ps                                 vdir
+ fincore                              psfaddtable                        vi
+ find                                 psfgettable                        view
+ findmnt                              psfstriptable                      viewres
+ flock                                psfxtable                          vigpg
+ fmt                                  pslog                              vim
+ fold                                 pstree                             vim.basic
+ free                                 pstree.x11                         vim.tiny
+ from                                 ptar                               vimdiff
+ ftp                                  ptardiff                           vimtutor
+ fuser                                ptargrep                           vmhgfs-fuse
+ fusermount                           ptx                                vmstat
+ fwupdagent                           purge-old-kernels                  vmtoolsd
+ fwupdate                             pwd                                vmware-checkvm
+ fwupdmgr                             pwdx                               vmware-hgfsclient
+ fwupdtool                            py3clean                           vmware-namespace-cmd
+ fwupdtpmevlog                        py3compile                         vmware-rpctool
+ gapplication                         py3versions                        vmware-toolbox-cmd
+ gawk                                 pydoc3                             vmware-vgauth-cmd
+ gdbus                                pydoc3.8                           vmware-vgauth-smoketest
+ geqn                                 pygettext3                         vmware-vmblock-fuse
+ getconf                              pygettext3.8                       vmware-xferlogs
+ getent                               pyhtmlizer3                        volname
+ getkeycodes                          pyjwt3                             w
+ getopt                               python3                            w.procps
+ gettext                              python3.8                          wall
+ gettext.sh                           rbash                              watch
+ ginstall-info                        rcp                                watchgnupg
+ gio                                  rdma                               wc
+ gio-querymodules                     readlink                           wdctl
+ git                                  realpath                           wget
+ git-receive-pack                     red                                whatis
+ git-shell                            rename.ul                          whereis
+ git-upload-archive                   renice                             which
+ git-upload-pack                      rescan-scsi-bus.sh                 whiptail
+ glib-compile-schemas                 reset                              who
+ gpasswd                              resizecons                         whoami
+ gpg                                  resizepart                         wifi-status
+ gpg-agent                            resolvectl                         write
+ gpg-connect-agent                    rev                                wslfetch
+ gpg-wks-server                       rgrep                              wslpath
+ gpg-zip                              rlogin                             wslsys
+ gpgcompose                           rm                                 wslupath
+ gpgconf                              rmdir                              wslusc
+ gpgparsemail                         rnano                              wslvar
+ gpgsm                                routef                             wslview
+ gpgsplit                             routel                             www-browser
+ gpgtar                               rrsync                             x-www-browser
+ gpgv                                 rsh                                x86_64
+ gpic                                 rsync                              xargs
+ grep                                 rtstat                             xauth
+ gresource                            run-mailcap                        xdg-user-dir
+ groff                                run-one                            xdg-user-dirs-update
+ grog                                 run-one-constantly                 xdpyinfo
+ grops                                run-one-until-failure              xdriinfo
+ grotty                               run-one-until-success              xev
+ groups                               run-parts                          xfd
+ growpart                             run-this-one                       xfontsel
+ gsettings                            runcon                             xkill
+ gtbl                                 rview                              xlsatoms
+ gunzip                               rvim                               xlsclients
+ gzexe                                savelog                            xlsfonts
+ gzip                                 sbattach                           xmessage
+ h2ph                                 sbkeysync                          xprop
+ h2xs                                 sbsiglist                          xsubpp
+ hd                                   sbsign                             xvinfo
+ head                                 sbvarsign                          xwininfo
+ helpztags                            sbverify                           xxd
+ hexdump                              scp                                xz
+ host                                 screen                             xzcat
+ hostid                               screendump                         xzcmp
+ hostname                             script                             xzdiff
+ hostnamectl                          scriptreplay                       xzegrep
+ htop                                 scsi_logging_level                 xzfgrep
+ hwe-support-status                   scsi_mandat                        xzgrep
+ i386                                 scsi_readcap                       xzless
+ iconv                                scsi_ready                         xzmore
+ id                                   scsi_satl                          yes
+ info                                 scsi_start                         ypdomainname
+ infobrowser                          scsi_stop                          zcat
+ infocmp                              scsi_temperature                   zcmp
+ infotocap                            sdiff                              zdiff
+ install                              sed                                zdump
+ install-info                         see                                zegrep
+ instmodsh                            select-editor                      zfgrep
+ ionice                               sensible-browser                   zforce
+ ip                                   sensible-editor                    zgrep
+ ipcmk                                sensible-pager                     zipdetails
+ ipcrm                                seq                                zless
+ ipcs                                 setarch                            zmore
+ iptables-xml                         setfont                            znew
+ ischroot                             setkeycodes
+root@DESKTOP-C82LQHA:/bin#
+
+
+
+
+1.2
+
+root@DESKTOP-C82LQHA:/home# mkdir cdac-dir
+root@DESKTOP-C82LQHA:/home# cd cdac-dir
+root@DESKTOP-C82LQHA:/home/cdac-dir#
+
+
+1.3
+
+root@DESKTOP-C82LQHA:/home/cdac-dir# mkdir -p a1/b1
+root@DESKTOP-C82LQHA:/home/cdac-dir# mkdir -p a1/b2
+root@DESKTOP-C82LQHA:/home/cdac-dir# mkdir -p a2/c1
+root@DESKTOP-C82LQHA:/home/cdac-dir# mkdir -p a2/c2
+root@DESKTOP-C82LQHA:/home/cdac-dir# tree
+.
+├── a1
+│   ├── b1
+│   └── b2
+└── a2
+    ├── c1
+    └── c2
+
+6 directories, 0 files
+root@DESKTOP-C82LQHA:/home/cdac-dir#
+root@DESKTOP-C82LQHA:/home# cd cdac-dir
+root@DESKTOP-C82LQHA:/home/cdac-dir# mkdir -p a1/b1/c1
+root@DESKTOP-C82LQHA:/home/cdac-dir# mkdir -p a2/b2/c2
+root@DESKTOP-C82LQHA:/home/cdac-dir# tree
+.
+├── a1
+│   └── b1
+│       └── c1
+└── a2
+    └── b2
+        └── c2
+1.4
+
+
+root@DESKTOP-C82LQHA:/home/cdac-dir# cd ..
+root@DESKTOP-C82LQHA:/home# ls
+cdac-dir  cdac_kh
+root@DESKTOP-C82LQHA:/home# rm -rf cdac-dir
+root@DESKTOP-C82LQHA:/home#
+
+
+Question 2
+
+
+
+2.1
+
+root@DESKTOP-C82LQHA:/home# man ls>>temp.txt
+root@DESKTOP-C82LQHA:/home# cat temp.txt
+LS(1)                            User Commands                           LS(1)
+
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information  about  the FILEs (the current directory by default).
+       Sort entries alphabetically if none of -cftuvSUX nor --sort  is  speci‐
+       fied.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       -a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+              do not list implied . and ..
+
+       --author
+              with -l, print the author of each file
+
+       -b, --escape
+              print C-style escapes for nongraphic characters
+
+       --block-size=SIZE
+              with  -l,  scale  sizes  by  SIZE  when  printing  them;   e.g.,
+              '--block-size=M'; see SIZE format below
+
+       -B, --ignore-backups
+              do not list implied entries ending with ~
+
+       -c     with -lt: sort by, and show, ctime (time of last modification of
+              file status information); with -l: show ctime and sort by  name;
+              otherwise: sort by ctime, newest first
+
+       -C     list entries by columns
+
+       --color[=WHEN]
+              colorize  the output; WHEN can be 'always' (default if omitted),
+              'auto', or 'never'; more info below
+
+       -d, --directory
+              list directories themselves, not their contents
+
+       -D, --dired
+              generate output designed for Emacs' dired mode
+
+       -f     do not sort, enable -aU, disable -ls --color
+
+       -F, --classify
+              append indicator (one of */=>@|) to entries
+
+       --file-type
+              likewise, except do not append '*'
+
+       --format=WORD
+              across -x, commas -m, horizontal -x, long -l, single-column  -1,
+              verbose -l, vertical -C
+
+       --full-time
+              like -l --time-style=full-iso
+
+       -g     like -l, but do not list owner
+
+       --group-directories-first
+              group directories before files;
+
+              can   be  augmented  with  a  --sort  option,  but  any  use  of
+              --sort=none (-U) disables grouping
+
+       -G, --no-group
+              in a long listing, don't print group names
+
+       -h, --human-readable
+              with -l and -s, print sizes like 1K 234M 2G etc.
+
+       --si   likewise, but use powers of 1000 not 1024
+
+       -H, --dereference-command-line
+              follow symbolic links listed on the command line
+
+       --dereference-command-line-symlink-to-dir
+              follow each command line symbolic link
+
+              that points to a directory
+
+       --hide=PATTERN
+              do not list implied entries matching shell  PATTERN  (overridden
+              by -a or -A)
+
+       --hyperlink[=WHEN]
+              hyperlink file names; WHEN can be 'always' (default if omitted),
+              'auto', or 'never'
+
+       --indicator-style=WORD
+              append indicator with style WORD to entry names: none (default),
+              slash (-p), file-type (--file-type), classify (-F)
+
+       -i, --inode
+              print the index number of each file
+
+       -I, --ignore=PATTERN
+              do not list implied entries matching shell PATTERN
+
+       -k, --kibibytes
+              default  to  1024-byte  blocks for disk usage; used only with -s
+              and per directory totals
+
+       -l     use a long listing format
+
+       -L, --dereference
+              when showing file information for a symbolic link, show informa‐
+              tion  for  the file the link references rather than for the link
+              itself
+
+       -m     fill width with a comma separated list of entries
+
+       -n, --numeric-uid-gid
+              like -l, but list numeric user and group IDs
+
+       -N, --literal
+              print entry names without quoting
+
+       -o     like -l, but do not list group information
+
+       -p, --indicator-style=slash
+              append / indicator to directories
+
+       -q, --hide-control-chars
+              print ? instead of nongraphic characters
+
+       --show-control-chars
+              show nongraphic characters as-is (the default, unless program is
+              'ls' and output is a terminal)
+
+       -Q, --quote-name
+              enclose entry names in double quotes
+
+       --quoting-style=WORD
+              use  quoting style WORD for entry names: literal, locale, shell,
+              shell-always,  shell-escape,  shell-escape-always,   c,   escape
+              (overrides QUOTING_STYLE environment variable)
+
+       -r, --reverse
+              reverse order while sorting
+
+       -R, --recursive
+              list subdirectories recursively
+
+       -s, --size
+              print the allocated size of each file, in blocks
+
+       -S     sort by file size, largest first
+
+       --sort=WORD
+              sort  by  WORD instead of name: none (-U), size (-S), time (-t),
+              version (-v), extension (-X)
+
+       --time=WORD
+              with -l, show time as WORD instead of default modification time:
+              atime  or  access  or  use  (-u); ctime or status (-c); also use
+              specified time as sort key if --sort=time (newest first)
+
+       --time-style=TIME_STYLE
+              time/date format with -l; see TIME_STYLE below
+
+       -t     sort by modification time, newest first
+
+       -T, --tabsize=COLS
+              assume tab stops at each COLS instead of 8
+
+       -u     with -lt: sort by, and show, access time; with -l:  show  access
+              time  and  sort  by name; otherwise: sort by access time, newest
+              first
+
+       -U     do not sort; list entries in directory order
+
+       -v     natural sort of (version) numbers within text
+
+       -w, --width=COLS
+              set output width to COLS.  0 means no limit
+
+       -x     list entries by lines instead of by columns
+
+       -X     sort alphabetically by entry extension
+
+       -Z, --context
+              print any security context of each file
+
+       -1     list one file per line.  Avoid '\n' with -q or -b
+
+       --help display this help and exit
+
+       --version
+              output version information and exit
+
+       The SIZE argument is an integer and  optional  unit  (example:  10K  is
+       10*1024).   Units  are  K,M,G,T,P,E,Z,Y  (powers  of 1024) or KB,MB,...
+       (powers of 1000).
+
+       The TIME_STYLE argument can be  full-iso,  long-iso,  iso,  locale,  or
+       +FORMAT.   FORMAT  is  interpreted  like in date(1).  If FORMAT is FOR‐
+       MAT1<newline>FORMAT2, then FORMAT1 applies to non-recent files and FOR‐
+       MAT2  to  recent files.  TIME_STYLE prefixed with 'posix-' takes effect
+       only outside the POSIX locale.  Also the TIME_STYLE  environment  vari‐
+       able sets the default style to use.
+
+       Using  color  to distinguish file types is disabled both by default and
+       with --color=never.  With --color=auto, ls emits color codes only  when
+       standard  output is connected to a terminal.  The LS_COLORS environment
+       variable can change the settings.  Use the dircolors command to set it.
+
+   Exit status:
+       0      if OK,
+
+       1      if minor problems (e.g., cannot access subdirectory),
+
+       2      if serious trouble (e.g., cannot access command-line argument).
+
+AUTHOR
+       Written by Richard M. Stallman and David MacKenzie.
+
+REPORTING BUGS
+       GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+       Report ls translation bugs to <https://translationproject.org/team/>
+
+COPYRIGHT
+       Copyright © 2018 Free Software Foundation, Inc.   License  GPLv3+:  GNU
+       GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+       This  is  free  software:  you  are free to change and redistribute it.
+       There is NO WARRANTY, to the extent permitted by law.
+
+SEE ALSO
+       Full documentation at: <https://www.gnu.org/software/coreutils/ls>
+       or available locally via: info '(coreutils) ls invocation'
+
+GNU coreutils 8.30              September 2019                           LS(1)
+
+
+
+root@DESKTOP-C82LQHA:/home# less temp.txt
+
+root@DESKTOP-C82LQHA:/home#
+root@DESKTOP-C82LQHA:/home# less temp.txt
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information  about  the FILEs (the current directory by default).
+       Sort entries alphabetically if none of -cftuvSUX nor --sort  is  speci‐
+       fied.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       -a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+              do not list implied . and ..
+
+       --author
+              with -l, print the author of each file
+
+       -b, --escape
+              print C-style escapes for nongraphic characters
+
+
+root@DESKTOP-C82LQHA:/home# more temp.txt
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information  about  the FILEs (the current directory by default).
+       Sort entries alphabetically if none of -cftuvSUX nor --sort  is  speci‐
+       fied.
+
+       Mandatory  arguments  to  long  options are mandatory for short options
+       too.
+
+       -a, --all
+              do not ignore entries starting with .
+
+       -A, --almost-all
+              do not list implied . and ..
+
+       --author
+              with -l, print the author of each file
+
+       -b, --escape
+              print C-style escapes for nongraphic characters
+
+       --block-size=SIZE
+--More--(9%)
+
+
+2.2
+
+
+root@DESKTOP-C82LQHA:/home# head -n10 temp.txt
+LS(1)                            User Commands                           LS(1)
+
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information  about  the FILEs (the current directory by default).
+root@DESKTOP-C82LQHA:/home#
+
+
+
+root@DESKTOP-C82LQHA:/home# head -n10 temp.txt
+LS(1)                            User Commands                           LS(1)
+
+NAME
+       ls - list directory contents
+
+SYNOPSIS
+       ls [OPTION]... [FILE]...
+
+DESCRIPTION
+       List  information  about  the FILEs (the current directory by default).
+root@DESKTOP-C82LQHA:/home#
+
+
+
+2.3
+
+
+root@DESKTOP-C82LQHA:/home# mkdir cdac-dic
+root@DESKTOP-C82LQHA:/home# ls
+cdac-dic  cdac_kh  temp.txt
+root@DESKTOP-C82LQHA:/home# cp temp.txt cdac-dic
+root@DESKTOP-C82LQHA:/home# cd cdac-dic
+root@DESKTOP-C82LQHA:/home/cdac-dic# ls
+temp.txt
+root@DESKTOP-C82LQHA:/home/cdac-dic# mv temp.txt temp1.txt
+root@DESKTOP-C82LQHA:/home/cdac-dic# ls
+temp1.txt
+root@DESKTOP-C82LQHA:/home/cdac-dic#
+
+
+2.4
+
+root@DESKTOP-C82LQHA:/# touch rohit.txt
+root@DESKTOP-C82LQHA:/# cat > rohit.txt
+Rohit
+Mendhekar
+mumbai
+pune
+cdac
+dbda
+kharghar
+root@DESKTOP-C82LQHA:/# wc rohit.txt
+ 7  7 48 rohit.txt
+
+2.5
+
+root@DESKTOP-C82LQHA:/# history
+  211  ls
+  212  rm -rf temp.txt
+  213  touch rohit.txt
+  214  rm -rf rohit.txt
+  215  cd ..
+  216  ls
+  217  touch rohit.txt
+  218  cat > rohit.txt
+  219  wc rohit.txt
+  220  history
+
+
+
+
+Question - 3
+
+3.1
+
+root@DESKTOP-C82LQHA:/# cd folder
+root@DESKTOP-C82LQHA:/folder# touch file1.txt
+root@DESKTOP-C82LQHA:/folder# touch file2.txt
+root@DESKTOP-C82LQHA:/folder# tar cf file1.tar file1.txt
+root@DESKTOP-C82LQHA:/folder# ls
+file1.tar  file1.txt  file2.txt
+
+
+
+3.2
+
+root@DESKTOP-C82LQHA:/# gzip rohit.txt
+root@DESKTOP-C82LQHA:/# ls
+bin   c1   etc     home  lib    lib64   media  opt   rohit.txt.gz  run   snap  sys  usr
+boot  dev  folder  init  lib32  libx32  mnt    proc  root          sbin  srv   tmp  var
+
+root@DESKTOP-C82LQHA:/# zcat rohit.txt
+Rohit
+Mendhekar
+mumbai
+pune
+cdac
+dbda
+kharghar
+
+
+3.3
+
+
+root@DESKTOP-C82LQHA:/home/cdac_kh# chmod 777 new.txt
+root@DESKTOP-C82LQHA:/home/cdac_kh# ls -l
+total 0
+-rw-r--r-- 1 cdac_kh cdac_kh  50 Mar 10 15:00 file1.txt
+drwxrw---x 1 root    root    512 Mar  9 15:06 fol2
+-rwxrwxrwx 1 root    root      0 Mar 10 11:57 new.txt
+-rwxrwxrwx 1 root    root      0 Mar 10 15:01 new1.txt
+--------w- 1 root    root      0 Mar 10 16:20 new2.txt
+--------w- 1 root    root      0 Mar 10 15:04 new3.txt
+
+3.4
+
+root@DESKTOP-C82LQHA:/home/cdac_kh# chown cdac_kh new.txt
+root@DESKTOP-C82LQHA:/home/cdac_kh# ls -l
+total 0
+-rw-r--r-- 1 cdac_kh cdac_kh  50 Mar 10 15:00 file1.txt
+drwxrw---x 1 root    root    512 Mar  9 15:06 fol2
+-rwxrwxrwx 1 cdac_kh root      0 Mar 10 11:57 new.txt
+-rwxrwxrwx 1 root    root      0 Mar 10 15:01 new1.txt
+--------w- 1 root    root      0 Mar 10 16:20 new2.txt
+--------w- 1 root    root      0 Mar 10 15:04 new3.txt
+
+3.5
+
+root@DESKTOP-C82LQHA:/home/cdac_kh# ps
+  PID TTY          TIME CMD
+  108 tty2     00:00:00 init
+  134 tty2     00:00:00 sudo
+  135 tty2     00:00:00 su
+  136 tty2     00:00:00 bash
+  184 tty2     00:00:00 less
+  192 tty2     00:00:00 less
+  200 tty2     00:00:00 less
+  208 tty2     00:00:00 more
+  221 tty2     00:00:00 cat
+  260 tty2     00:00:00 ps
+
+
+root@DESKTOP-C82LQHA:/home/cdac_kh# top
+top - 21:43:32 up  4:21,  0 users,  load average: 0.52, 0.58, 0.59
+Tasks:  17 total,   1 running,  11 sleeping,   5 stopped,   0 zombie
+%Cpu(s):  8.5 us,  3.3 sy,  0.0 ni, 87.6 id,  0.0 wa,  0.5 hi,  0.0 si,  0.0 st
+MiB Mem :   7959.5 total,   2226.2 free,   5509.3 used,    224.0 buff/cache
+MiB Swap:   8672.0 total,   8291.5 free,    380.5 used.   2319.6 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 root      20   0    8940    320    276 S   0.0   0.0   0:00.25 init
+   10 cdac_kh   20   0   18076   3504   3416 S   0.0   0.0   0:00.42 bash
+   48 root      20   0   19180   2744   2652 S   0.0   0.0   0:00.16 sudo
+   49 root      20   0   18032   1992   1964 S   0.0   0.0   0:00.07 su
+   50 root      20   0   17012   2348   2260 S   0.0   0.0   0:00.36 bash
+   92 root      20   0   57224   5928   4568 S   0.0   0.1   0:00.13 VGAuthService
+  108 root      20   0    8940    216    172 S   0.0   0.0   0:00.00 init
+  109 cdac_kh   20   0   18076   3504   3412 S   0.0   0.0   0:00.23 bash
+  134 root      20   0   19180   2744   2652 S   0.0   0.0   0:00.10 sudo
+  135 root      20   0   18032   2000   1976 S   0.0   0.0   0:00.04 su
+  136 root      20   0   17008   2412   2324 S   0.0   0.0   0:00.88 bash
+  184 root      20   0   15636   1292    936 T   0.0   0.0   0:00.01 less
+  192 root      20   0   15636   1288    936 T   0.0   0.0   0:00.03 less
+  200 root      20   0   15636   1292    936 T   0.0   0.0   0:00.01 less
+  208 root      20   0   15488   1144    864 T   0.0   0.0   0:00.01 more
+  221 root      20   0   15420    896    628 T   0.0   0.0   0:00.01 cat
+  261 root      20   0   18920   2156   1528 R   0.0   0.0   0:00.07 top
+
+
+Question - 4.
+
+4.1
+root@DESKTOP-C82LQHA:/home/cdac_kh# date
+Thu Mar 10 21:47:46 IST 2022
+root@DESKTOP-C82LQHA:/home/cdac_kh# cal
+     March 2022
+Su Mo Tu We Th Fr Sa
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30 31
+
+4.2
+root@DESKTOP-C82LQHA:/home/cdac_kh# date -s "14 MARCH 2017 10:10:00"
+date: cannot set date: Function not implemented
+Tue Mar 14 10:10:00 IST 2017
+root@DESKTOP-C82LQHA:/home/cdac_kh# date
+Thu Mar 14 10:10:00 IST 2017
+
+4.3
+root@DESKTOP-C82LQHA:/# whoami
+root
+root@DESKTOP-C82LQHA:/# whatis ls
+ls (1)               - list directory contents
+root@DESKTOP-C82LQHA:/# whereis rohit.txt
+file:usr/bin/file
+
+
